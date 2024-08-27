@@ -1,11 +1,12 @@
-name: myenv  # You can replace 'myenv' with your desired environment name
+name: myenv  # You can change this to your preferred environment name
 channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.9  # You can specify the Python version you need
+  - python=3.9  # Use the required version
   - pip
   - setuptools
+  - flake8  # Added flake8 directly to the environment
   - zlib
   - xz
   - tk
