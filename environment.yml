@@ -1,4 +1,4 @@
-name: myenv  # You can change this to your preferred environment name
+name: myenv  # Your environment name
 channels:
   - conda-forge
   - defaults
@@ -6,7 +6,7 @@ dependencies:
   - python=3.9  # Use the required version
   - pip
   - setuptools
-  - flake8  # Added flake8 directly to the environment
+  - flake8  # Ensure flake8 is included
   - zlib
   - xz
   - tk
